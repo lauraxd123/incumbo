@@ -1,0 +1,23 @@
+*{ /*selector universal(todos los elementos)*/
+    margin: 0; /* quitar margen a todos*/
+    padding: 0; /*padding para todos*/
+    box-sizing: border-box; /*respeta el ancho maximo de la caja*/
+    font-family: 'Darumadrop One', cursive;
+}
+header{
+    display: flex;
+    justify-content: flex-start;
+    height: 100vh;
+}
+.botones{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    padding-left: 50px;
+    transition: 3s;
+}
+ 
+.logo img {
+    margin-left: 20px;
+}
