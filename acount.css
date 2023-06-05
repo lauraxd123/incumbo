@@ -1,0 +1,93 @@
+*{
+    margin: 0; /* quitar margen a todos*/
+    padding: 0; /*padding para todos*/
+    box-sizing: border-box; /*respeta el ancho maximo de la caja*/
+    font-family: 'Darumadrop One', cursive;
+}
+
+body {
+    background-image: url(imagenes/kiwis.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.login{
+    width: 400px;
+    height: fit-content;
+    background-color: #a4c3ab;
+    padding: 12px;
+    margin: 8% auto;
+    border-radius: 20px;
+    box-shadow: 6px 6px 15px #7c9c84;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+
+.login h1{
+    color: #283a2f;
+    text-shadow: 2px 2px 8px #b7babd;
+    letter-spacing: 1.5px;
+    font-size: 38px;
+    margin-bottom: 12px;
+}
+
+.login a{
+    color: #395544;
+    text-decoration: none;
+    margin: 6px 0;
+    transition: 1s  color;
+
+}
+.login  a:hover{
+    color: #395544;
+}
+.login  form{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.login  form label{
+    color: white;
+    margin: 8px 0;
+}
+.login  form  input[type="text"],
+.login  form input[type="password"]{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #425f49;
+    outline: none;
+    height: 40px;
+    transition: 5s;
+}
+.login  form  input[type="text"]::placeholder,
+.login  form input[type="password"]::placeholder{
+         color: #425f49;
+}
+.login  form  input[type="text"]:focus,
+.login form input[type="password"]:focus{
+        border-color: #497053;
+}
+
+
+
+.login  form input[type="submit"]{
+    width: 200px;
+    margin: 12px auto;
+    padding: 6px;
+    border-radius: 20px;
+    background-color: #395544;
+    border: none;
+    color: aliceblue;
+}
+
+
+.login  form input[type="submit"]:hover{
+    background-color: #425f49;
+    cursor: pointer;
+}
+
+.login  form input[type="submit"]:active{
+    background-color: #aac4a2;
+}
