@@ -1,0 +1,87 @@
+*{ /*selector universal(todos los elementos)*/
+    margin: 0; /* quitar margen a todos*/
+    padding: 0; /*padding para todos*/
+    box-sizing: border-box; /*respeta el ancho maximo de la caja*/
+    font-family: 'Darumadrop One', cursive;
+}
+header{
+    display: flex;
+    justify-content: flex-start; 
+     height: 100vh; 
+    width:100%;
+}
+.botones{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100px;
+    transition: 3s;
+    background-color: #EBE3DB;
+    align-items: center;
+    box-shadow: 0 10px 20px #A48374;
+    position: sticky;
+    top: 0;
+    
+}
+ .logo{
+    width: 100%;
+ }
+.logo img {
+    margin-left: 20px;
+    width: 350px;
+    border-radius: 100px;
+    margin-top: 25px;
+    margin-left: 45px;
+    
+}
+ body{
+    background-color: #eff4f2;
+    display: flex;
+   
+    
+ }
+
+.fotodeperfil img{
+    border-radius: 150px;
+    position: absolute;
+    left: 45%;
+    top: 10%;
+ }
+
+ .usuario h1{
+     color: rgb(139, 139, 139);
+     letter-spacing: 1.5px;
+    font-size: 65px;
+    position: absolute;
+    left: 15%;
+    top: 55%;
+ }
+
+ .usuario p{
+   color: rgb(53, 53, 53);
+   letter-spacing: 1.5px;
+   font-size: 20px;
+   position: absolute;
+   left: 15%;
+   top: 67%;
+
+ }
+
+ .edit button{
+    width: 250px;
+    position: absolute;
+    top: 87%; 
+    left: 45%;
+    font-size: 35px;
+    border-radius: 50px;
+    border: 2px solid rgb(130, 173, 121);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+
+  
+    
+ }
+ .infoperfil{
+    height: 1500px;
+ }
+

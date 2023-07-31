@@ -8,12 +8,14 @@
     <link rel="stylesheet" href="registrar.css">
 </head>
 <body>
+<div class="login">
+        <h1>Register</h1>
     <form action="registrar.php" method="POST">
 
         
         <label for="name">Name:</label>  
     
-        <input type="text" id="name" name=" "> 
+        <input type="text" id="name" name="nameUser"> 
         
         <br> 
         <label for="apellido">Last name:</label>
@@ -62,6 +64,7 @@
         
         <input type="submit" value="Register" name="register">
     </form>
+    </div>
     <?php
             if(isset($_POST["register"])){
                 include("bbdd_connection.php");
@@ -76,7 +79,7 @@
                 $genero = $_POST["genero"];
                 
                 
-                $connection->query("INSERT INTO $bbddTable (Name,Last Name,Username,Age,Email,Birth Day,Password,Sex)VALUES ('$nombre', '$apellidos','$nombreUsuario','$correo','$cumpleaños','$contraseña','$genero')");
+                $connection->query("INSERT INTO $bbddTable (`Name`,`Last Name`,Username,Age,Email,`Birth Day`,`Password`,Sex)VALUES ('$nombre', '$apellidos','$Nombredeusuario','$Edad','$correo','$Cumpleaños','$contraseña','$genero')");
                 ?>
 
                 <p> Se insertó el dato correctamente </p>

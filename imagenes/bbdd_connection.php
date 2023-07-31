@@ -2,7 +2,7 @@
 
     $host = "localhost";
     $bbdd = "inimmo";
-    $bbddUser = "inimmo11B";
+    $bbddUser = "Inimmo11B";
     $bbddpass = "1234";
 
     $bbddTable = "usuario";

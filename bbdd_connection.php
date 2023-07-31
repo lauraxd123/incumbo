@@ -1,13 +1,13 @@
 <?php
 
     $host = "localhost";
-    $bbdd = "bbdd11";
-    $bbddUser = "admin";
+    $bbdd = "inimmo";
+    $bbddUser = "Inimmo11B";
     $bbddpass = "1234";
 
     $bbddTable = "usuario";
 
-    // error_reporting(0);
+    //error_reporting(0);
 
     $connection = new mysqli($host,$bbddUser,$bbddpass,$bbdd);
 

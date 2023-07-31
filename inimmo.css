@@ -5,22 +5,27 @@
     font-family: 'Darumadrop One', cursive;
 }
 header{
-    display: flex;
-    justify-content: flex-start;
-    height: 100vh;
+    /* display: flex;
+    justify-content: flex-start; */
+    /* height: 100vh; */
+    width:100%;
 }
 .botones{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 100%;
+    height: 100vh;
     width: 100px;
     transition: 3s;
     background-color: #EBE3DB;
     align-items: center;
     box-shadow: 0 10px 20px #A48374;
+    position: sticky;
+    top: 0;
 }
- 
+ .logo{
+    width: 100%;
+ }
 .logo img {
     margin-left: 20px;
     width: 350px;
@@ -31,4 +36,68 @@ header{
 }
  body{
     background-color: #eff4f2;
+    display: flex;
  }
+
+ .MONTHS div h3{
+    color: #78a474;
+ }
+ .MONTHS{
+/* border: solid 1px red; */
+width: 100%;
+/* height: 100%; */
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap:20px;
+
+ }
+ .MONTHS div h3{
+    display: none;
+ }
+
+ .MONTHS div{
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 250px;
+ }
+ .titulo{
+
+     background-image:url(imagenes/january-2023-calendar-classic.png);
+    
+     
+ }
+ .titulo2{
+    background-image:url(imagenes/february-2023-calendar-classic.png);
+     }
+     .titulo3{
+        background-image:url(imagenes/march-2023-calendar-classic.png);
+         }
+          .titulo4{
+            background-image:url(imagenes/april-2023-calendar-classic.png);
+             }
+             .titulo5{
+                background-image:url(imagenes/may-2023-calendar-classic.png);
+                 }
+                 .titulo6{
+                    background-image:url(imagenes/june-2023-calendar-classic.png);
+                     }
+                     .titulo7{
+                        background-image:url(imagenes/july-2023-calendar-classic.png);
+                         }
+                         .titulo8{
+                            background-image:url(imagenes/august-2023-calendar-classic.png);
+                             }
+                             .titulo9{
+                                background-image:url(imagenes/september-2023-calendar-classic.png);
+                                 }
+                                 .titulo10{
+                                    background-image:url(imagenes/october-2023-calendar-classic.png);
+                                     }
+                                     .titulo11{
+                                        background-image:url(imagenes/november-2023-calendar-classic.png);
+                                         }
+                                         .titulo12{
+                                            background-image:url(imagenes/december-2023-calendar-classic.png);
+                                             }
+                                                                                                                                                                                                                                                                         
