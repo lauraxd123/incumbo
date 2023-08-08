@@ -2,7 +2,7 @@
     margin: 0; /* quitar margen a todos*/
     padding: 0; /*padding para todos*/
     box-sizing: border-box; /*respeta el ancho maximo de la caja*/
-    font-family: 'Darumadrop One', cursive;
+    font-family: cursive;
 }
 header{
     display: flex;
@@ -73,15 +73,52 @@ header{
     position: absolute;
     top: 87%; 
     left: 45%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
     font-size: 35px;
     border-radius: 50px;
     border: 2px solid rgb(130, 173, 121);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
-
-  
-    
  }
+
+ .edit button:hover{
+    background-color:rgb(147,179,109);
+    transition: 1s;
+ }
+
+
  .infoperfil{
-    height: 1500px;
+    height: 2000px;
  }
 
+ h2{
+    color: rgb(155, 155, 155);
+    top: 100%;
+    left: 20%;
+    position: absolute;
+ }
+
+.progreso{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 110%;
+    left: 200px;
+}
+
+.progreso label{
+    margin-top: 30px;
+}
+
+progress[value] {
+    width: 250px;
+    height: 20px;
+    appearance: none;
+    -webkit-appearance: none;
+  }
+  progress[value]::-webkit-progress-bar {
+    background-color: rgb(196,196,196);
+    border-radius: 10px;
+  }
+  progress[value]::-webkit-progress-value {
+    background-color: rgb(132,156,140);
+    border-radius: 10px;
+  }

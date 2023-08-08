@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Roboto+Slab:wght@300&family=Sen&family=Staatliches&display=swap" rel="stylesheet">
+     <!-- <link href="https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Roboto+Slab:wght@300&family=Sen&family=Staatliches&display=swap" rel="stylesheet"> -->
 </head>
 <body>
     <div class="botones">
@@ -20,66 +20,68 @@
         <a href=""><img src="imagenes/comprobacion-de-lista.png" alt=""></a>   
         <a href=""><img src="imagenes/reloj-tres.png" alt=""></a>   
     </div>
-     <div class="infoperfil">
+
+    <div class="infoperfil">
 
      
-    <div class= "fotodeperfil">
-        <img src="imagenes\profile.jpg" width="250px" height="250px" alt="">
+        <div class= "fotodeperfil">
+            <img src="imagenes\profile.jpg" width="250px" height="250px" alt="">
+        </div>
+
+        <div class= "usuario">
+            <h1>Name LastName</h1>
+            <p>@User_example_123 <br> <br>
+            mailexample@gmail.com</p>
+        </div>
+
+        <div class= "edit">
+            <a href="editprofile.php">
+                <button>Edit Profile</button>
+            </a> 
+        </div>
+    
+            <h2>PERFORMANCE</h2>
+    
+        <div class="progreso">
+        
+            <label for="file">JANUARY:</label>
+            <progress id="file" max="100" value="70"> 70% </progress>
+
+            <label for="file">FEBRUARY:</label>
+            <progress id="file" max="100" value="50"> 50% </progress>
+
+            <label for="file">MARCH:</label>
+            <progress id="file" max="100" value="60"> 60% </progress>
+
+            <label for="file">APRIL:</label>
+            <progress id="file" max="100" value="30"> 30% </progress>
+
+            <label for="file">MAY:</label>
+            <progress id="file" max="100" value="15"> 15% </progress>
+
+            <label for="file">JUNE:</label>
+            <progress id="file" max="100" value="47"> 47% </progress>
+
+            <label for="file">JULY:</label>
+            <progress id="file" max="100" value="58"> 58% </progress>
+
+            <label for="file">AUGUST:</label>
+            <progress id="file" max="100" value="81"> 81% </progress>
+
+            <label for="file">SEPTEMBER:</label>
+            <progress id="file" max="100" value="8"> 8% </progress>
+
+            <label for="file">OCTOBER:</label>
+            <progress id="file" max="100" value="67"> 67% </progress>
+
+            <label for="file">NOVEMBER:</label>
+            <progress id="file" max="100" value="20"> 20% </progress>
+
+            <label for="file">DECEMBER:</label>
+            <progress id="file" max="100" value="90"> 90% </progress>
+        </div>
     </div>
 
-    <div class= "usuario">
-        <h1>Name LastName</h1>
-        <p>@User_example_123 <br> <br>
-        mailexample@gmail.com</p>
-    </div>
 
-    <div class= "edit">
-        <a href="editprofile.php">
-            <button>Edit Profile</button>
-        </a> 
-    </div>
-    <div class="progreso">
-   
-<label for="file">JANUARY:</label>
-
-<progress id="file" max="100" value="70"> 70% </progress>
-<label for="file">FEBRUARY:</label>
-
-<progress id="file" max="100" value="70"> 70% </progress>
-<label for="file">MARCH:</label>
-
-<progress id="file" max="100" value="70"> 70% </progress>
-<label for="file">APRIL:</label>
-
-<progress id="file" max="100" value="70"> 70% </progress>
-<label for="file">MAY:</label>
-
-<progress id="file" max="100" value="70"> 70% </progress>
-<label for="file">JUNE:</label>
-
-<progress id="file" max="100" value="70"> 70% </progress>
-<label for="file">JULY:</label>
-
-<progress id="file" max="100" value="70"> 70% </progress>
-<label for="file">AUGUST:</label>
-
-<progress id="file" max="100" value="70"> 70% </progress>
-<label for="file">SEPTEMBER:</label>
-
-<progress id="file" max="100" value="70"> 70% </progress>
-<label for="file">OCTOBER:</label>
-
-<progress id="file" max="100" value="70"> 70% </progress>
-<label for="file">NOVEMBER:</label>
-
-<progress id="file" max="100" value="70"> 70% </progress>
-<label for="file">DECEMBER:</label>
-
-<progress id="file" max="100" value="70"> 70% </progress>
-
-
-
-    </div>
-    </div>
 </body>
 </html>
