@@ -17,7 +17,7 @@
 <div class="botones">
          <a href=""><img src="imagenes/hogar.png" alt=""></a>   
          <a href="acount.php"><img src="imagenes/usuario.png" alt=""></a>   
-         <a href=""><img src="imagenes/comprobacion-de-lista.png" alt=""></a>   
+         <a href="OCTOBER.php"><img src="imagenes/comprobacion-de-lista.png" alt=""></a>   
          <a href=""><img src="imagenes/reloj-tres.png" alt=""></a>   
          
         </div>
