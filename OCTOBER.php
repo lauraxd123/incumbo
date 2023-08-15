@@ -47,5 +47,7 @@ sick
 </span>
 
     </div>
+
+    <script src="emociones.js"></script>
     
 </body>
