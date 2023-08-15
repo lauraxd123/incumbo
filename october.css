@@ -78,3 +78,14 @@ h1{
     top: 30%;
     left: 18%;
 }
+
+.horas{
+    color: rgb(151, 185, 154);
+    font-size: 15px;
+    top: 40%;
+    left: 12%;
+    position: absolute;
+    
+    
+
+}
