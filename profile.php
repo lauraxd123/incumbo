@@ -18,7 +18,7 @@
         <a href="inimmo.php"><img src="imagenes/hogar.png" alt=""></a>   
         <a href="acount.php"><img src="imagenes/usuario.png" alt=""></a>   
         <a href=""><img src="imagenes/comprobacion-de-lista.png" alt=""></a>   
-        <a href=""><img src="imagenes/reloj-tres.png" alt=""></a>   
+        <a href="music.php"><img src="imagenes\album-de-musica.png" alt="" width="55px" height="55px"></a>  
     </div>
 
     <div class="infoperfil">

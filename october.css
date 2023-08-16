@@ -7,7 +7,7 @@
 header{
     display: flex;
     justify-content: flex-start; 
-     height: 100vh; 
+     height: 2000px; 
     width:100%;
 }
 .botones{
@@ -49,8 +49,10 @@ h1{
 }
 
 .material-symbols-outlined {
-    font-variation-settings: 'FILL' 0;
+    /* font-variation-settings: 'FILL' 0; */
     position: absolute;
+    fill: 1;
+    border-radius: 50%;
 }
 
 .happy {

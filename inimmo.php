@@ -16,9 +16,10 @@
 <body>
 <div class="botones">
          <a href=""><img src="imagenes/hogar.png" alt=""></a>   
-         <a href="acount.php"><img src="imagenes/usuario.png" alt=""></a>   
+         <a href="profile.php"><img src="imagenes/usuario.png" alt=""></a>   
          <a href="OCTOBER.php"><img src="imagenes/comprobacion-de-lista.png" alt=""></a>   
-         <a href=""><img src="imagenes/reloj-tres.png" alt=""></a>   
+         <a href="music.php"><img src="imagenes\album-de-musica.png" alt="" width="55px" height="55px"></a>   
+         
          
         </div>
     <header >
@@ -56,10 +57,10 @@
             <h3>SEPTEMBER</h3>
         </div>
         <div class="titulo10">
-            <h3>OCTOBER</h3>
+            <a href="OCTOBER.php"><img src="imagenes/october-2023-calendar-classic.png" alt=""></a>
         </div>
         <div class="titulo11">
-            <h3>NOVEMBER</h3>
+            <a href="NOVEMBER.php"><img src="imagenes/november-2023-calendar-classic.png" alt=""></a>
         </div>
         <div class="titulo12">
             <h3>DECEMBER</h3>

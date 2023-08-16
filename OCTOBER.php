@@ -18,16 +18,15 @@
     </head>
 <body>
         <div class="botones">
-         <a href=""><img src="imagenes/hogar.png" alt=""></a>   
+         <a href="inimmo.php"><img src="imagenes/hogar.png" alt=""></a>   
          <a href="acount.php"><img src="imagenes/usuario.png" alt=""></a>   
          <a href="OCTOBER.php"><img src="imagenes/comprobacion-de-lista.png" alt=""></a>   
-         <a href=""><img src="imagenes/reloj-tres.png" alt=""></a>   
+         <a href="music.php"><img src="imagenes\album-de-musica.png" alt="" width="55px" height="55px"></a>   
          
         </div> 
     <header >
         
         <h1>Daily Planner</h1>
-    </header>
 
     <div>
     <span class="material-symbols-outlined happy">
@@ -46,7 +45,9 @@ sentiment_extremely_dissatisfied
 sick
 </span>
 
-  </div>
+    </div>
+
+    <script src="emociones.js"></script>
     
     <div class="horas">
         <div class="titulo">
@@ -107,5 +108,7 @@ sick
             <h3>24:00</h3>
         </div>
     </div>
+    </header>
+
 
 </body>
