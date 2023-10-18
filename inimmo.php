@@ -16,14 +16,14 @@
 <body>
 
 <?php
-    session_start();
-    ob_start();
-    echo $_SESSION["usuario"];
+    // session_start();
+    // ob_start();
+    // echo $_SESSION["usuario"];
 
-    if($_SESSION["usuario"]==""){
-        echo "No hay sesión activa";
-        exit();
-    }
+    // if($_SESSION["usuario"]==""){
+    //     echo "No hay sesión activa";
+    //     exit();
+    // }
 ?>
 <div class="botones">
          <a href=""><img src="imagenes/hogar.png" alt=""></a>   

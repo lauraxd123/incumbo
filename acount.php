@@ -37,40 +37,40 @@
 
 <?php
         if(isset($_POST["login"])){
-                include("bbdd_connection.php");
-                $usuario = $_POST["userName"];
-                $pass = $_POST["password"];
+                // include("bbdd_connection.php");
+                // $usuario = $_POST["userName"];
+                // $pass = $_POST["password"];
 
-                $busqueda = mysqli_query($connection, "SELECT Username, `Password` FROM $bbddTable WHERE Username = '$usuario'");
-                $existe = false;
-                $datosMal = true;
+                // $busqueda = mysqli_query($connection, "SELECT Username, `Password` FROM $bbddTable WHERE Username = '$usuario'");
+                // $existe = false;
+                // $datosMal = true;
 
-                while($registro = mysqli_fetch_array($busqueda)){
-                    if($registro["Username"] == $usuario){
-                        $existe = true;
-                    }
+                // while($registro = mysqli_fetch_array($busqueda)){
+                //     if($registro["Username"] == $usuario){
+                //         $existe = true;
+                //     }
 
-                    if($existe){
-                        if($registro["Password"] == $pass){
-                            $datosMal = false;
-                        }
-                    }
-                }
+                //     if($existe){
+                //         if($registro["Password"] == $pass){
+                //             $datosMal = false;
+                //         }
+                //     }
+                // }
 
-                if(!$existe){
-                    ?>
-                        <p class="mensaje">El usuario no existe en la base de datos</p>
-                    <?php
-                }else if($existe && $datosMal){
-                    ?>
-                        <p class="mensaje">La contraseña no corresponde a la cuenta a la que quiere acceder</p>
-                    <?php
-                }else{
-                    session_start();
-                    $_SESSION["sesionIniciada"] = 1;
-                    $_SESSION["usuario"]= $usuario;
+                // if(!$existe){
+                //     ?>
+                //         <p class="mensaje">El usuario no existe en la base de datos</p>
+                //     <?php
+                // }else if($existe && $datosMal){
+                //     ?>
+                //         <p class="mensaje">La contraseña no corresponde a la cuenta a la que quiere acceder</p>
+                //     <?php
+                // }else{
+                //     session_start();
+                //     $_SESSION["sesionIniciada"] = 1;
+                //     $_SESSION["usuario"]= $usuario;
                     header("location:inimmo.php");                    
-                }
+                // }
             }
             ?>
 
