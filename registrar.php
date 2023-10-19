@@ -51,16 +51,14 @@
         
         <br> 
         
-        <label for="masculino">Male</label> 
+        <label for="masculino">Male<input type="radio" id="masculino" name="genero" value="masculino" ></label> 
         
-        <input type="radio" id="masculino" name="genero" value="masculino" >
         
-        <label for="femenino">Female</label>
         
-        <input type="radio" id="femenino" name="genero" value="femenino" checked>
+        <label for="femenino">Female<input type="radio" id="femenino" name="genero" value="femenino" checked></label>
         
-    
-        <input type="reset" value="Reset">
+        
+        
         
         <input type="submit" value="Register" name="register">
     </form>
@@ -80,10 +78,10 @@
                 
                 
                 $connection->query("INSERT INTO $bbddTable (`Name`,`Last Name`,Username,Age,Email,`Birth Day`,`Password`,Sex)VALUES ('$nombre', '$apellidos','$Nombredeusuario','$Edad','$correo','$Cumpleaños','$contraseña','$genero')");
-                ?>
+                header("location:acount.php");  
 
-                <p> Se insertó el dato correctamente </p>
-                <?php
+                
+                
             }
         ?>
 

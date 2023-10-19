@@ -4,6 +4,22 @@
     box-sizing: border-box; /*respeta el ancho maximo de la caja*/
     font-family: cursive;
 }
+.cerrarsesion{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.cerrarsesion a{
+    color: rgb(139, 139, 139);
+    text-decoration: none;
+    padding: 8px 12px;
+    border: 2px solid rgb(139, 139, 139);
+    border-radius: 20px;
+}
+.cerrarsesion a:hover{
+    color: rgb(93, 93, 93);
+    background-color: rgba(201, 199, 199, 0.776);
+}
 header{
     display: flex;
     justify-content: flex-start; 

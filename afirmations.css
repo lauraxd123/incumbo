@@ -1,0 +1,52 @@
+*{ /*selector universal(todos los elementos)*/
+    margin: 0; /* quitar margen a todos*/
+    padding: 0; /*padding para todos*/
+    box-sizing: border-box; /*respeta el ancho maximo de la caja*/
+    font-family: 'Darumadrop One', cursive;
+}
+header{
+    /* display: flex;
+    justify-content: flex-start; */
+    /* height: 100vh; */
+    width:100%;
+}
+.botones{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100px;
+    transition: 3s;
+    background-color: #EBE3DB;
+    align-items: center;
+    box-shadow: 0 10px 20px #A48374;
+    position: sticky;
+    top: 0;
+}
+ .logo{
+    width: 100%;
+ }
+
+ body{
+    background-color: #eff4f2;
+    display: flex;
+ }
+.numbers{
+    width: 100%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+ .numbers img{
+    height: 350px;
+    width: 320px;
+ }
+
+
+ 
+
+    

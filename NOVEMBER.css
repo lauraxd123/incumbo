@@ -7,7 +7,7 @@
 header{
     display: flex;
     justify-content: flex-start; 
-    height: 1260px; 
+     height: 1260px; 
     width:100%;
 }
 .botones{
@@ -53,9 +53,6 @@ h1{
     position: absolute;
     fill: 1;
     border-radius: 50%;
-}
-span{
-    cursor: pointer;
 }
 
 .happy {
@@ -153,6 +150,3 @@ span{
         background-image: url(imagenes/carrusel1.jpeg);
     }
 }
-
-
-

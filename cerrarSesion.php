@@ -2,5 +2,5 @@
     session_start();
     $_SESSION["usuario"] ="";
     session_destroy();
-    header("location:login.php");
+    header("location:acount.php");
 ?>
