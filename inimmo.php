@@ -21,7 +21,7 @@
      $_SESSION["usuario"];
 
     if($_SESSION["usuario"]==""){
-        header("location:acount.php");     
+        header("location:acount.php");   
     }
 ?>
 <div class="botones">
