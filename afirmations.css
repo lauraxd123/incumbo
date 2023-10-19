@@ -1,7 +1,7 @@
-*{
-    margin: 0; 
-    padding: 0;
-    box-sizing: border-box; 
+*{ /*selector universal(todos los elementos)*/
+    margin: 0; /* quitar margen a todos*/
+    padding: 0; /*padding para todos*/
+    box-sizing: border-box; /*respeta el ancho maximo de la caja*/
     font-family: 'Darumadrop One', cursive;
 }
 header{
@@ -26,36 +26,27 @@ header{
  .logo{
     width: 100%;
  }
-.logo img {
-    margin-left: 20px;
-    width: 350px;
-    border-radius: 100px;
-    margin-top: 25px;
-    margin-left: 45px;
-    
-}
+
  body{
     background-color: #eff4f2;
     display: flex;
  }
+.numbers{
+    width: 100%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
 
-.playlist1{
-    position: absolute;
-    width: 350px;
-    top: 25%;
-    left: 15%;
 }
-.playlist2{
-    position: absolute;
-    width: 350px;
-    top: 25%;
-    left: 43%;
-}
-.playlist3{
-    position: absolute;
-    width: 350px;
-    top: 25%;
-    left: 70%;
-}
+ .numbers img{
+    height: 350px;
+    width: 320px;
+ }
+
 
  
+
+    

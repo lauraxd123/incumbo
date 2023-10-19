@@ -14,10 +14,32 @@
      <!-- <link href="https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Roboto+Slab:wght@300&family=Sen&family=Staatliches&display=swap" rel="stylesheet"> -->
 </head>
 <body>
+<?php
+    session_start();
+    ob_start();
+     $_SESSION["usuario"];
+     $usuario= $_SESSION["usuario"];
+
+    if($_SESSION["usuario"]==""){
+        echo "No hay sesión activa";
+        exit();
+    }
+    include("bbdd_connection.php");
+    $busqueda = mysqli_query($connection, "SELECT * FROM $bbddTable WHERE Username = '$usuario'");
+             $nombre="";
+             $userName="";
+             $correo="";
+
+                while($registro = mysqli_fetch_array($busqueda)){
+                    $nombre = $registro["Name"];
+                    $userName = $registro["Username"];
+                    $correo= $registro["Email"];                        
+                }
+?>
     <div class="botones">
         <a href="inimmo.php"><img src="imagenes/hogar.png" alt=""></a>   
         <a href="acount.php"><img src="imagenes/usuario.png" alt=""></a>   
-        <a href=""><img src="imagenes/comprobacion-de-lista.png" alt=""></a>   
+        <a href="OCTOBER.php"><img src="imagenes/comprobacion-de-lista.png" alt=""></a>   
         <a href="music.php"><img src="imagenes\album-de-musica.png" alt="" width="55px" height="55px"></a>  
     </div>
 
@@ -29,9 +51,9 @@
         </div>
 
         <div class= "usuario">
-            <h1>Name LastName</h1>
-            <p>@User_example_123 <br> <br>
-            mailexample@gmail.com</p>
+            <h1><?php echo $nombre?></h1>
+            <p><?php echo $userName?> <br> <br>
+            <?php echo $correo?></p>
         </div>
 
         <div class= "edit">

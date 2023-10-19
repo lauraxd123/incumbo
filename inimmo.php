@@ -14,6 +14,16 @@
 <link href="https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Roboto+Slab:wght@300&family=Sen&family=Staatliches&display=swap" rel="stylesheet">
 </head>
 <body>
+
+<?php
+    session_start();
+    ob_start();
+     $_SESSION["usuario"];
+
+    if($_SESSION["usuario"]==""){
+        header("location:acount.php");     
+    }
+?>
 <div class="botones">
          <a href=""><img src="imagenes/hogar.png" alt=""></a>   
          <a href="profile.php"><img src="imagenes/usuario.png" alt=""></a>   

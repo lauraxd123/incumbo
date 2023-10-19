@@ -47,18 +47,28 @@ body {
     flex-direction: column;
     
 }
+
 .login  form label{
     color: white;
     margin: 8px 0;
 }
+
+ .login  form  input[type="radio"]{
+margin-left: 70px;
+border-color:#44fc63;
+background-color:#ff42ff;
+} 
 .login  form  input[type="text"],
+.login  form  input[type="number"],
+.login  form  input[type="email"],
+.login  form  input[type="date"],
 .login  form input[type="password"]{
     background-color: transparent;
     border: none;
     border-bottom: 2px solid #425f49;
     outline: none;
     height: 40px;
-    transition: 5s;
+    
 }
 .login  form  input[type="text"]::placeholder,
 .login  form input[type="password"]::placeholder{

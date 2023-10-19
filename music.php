@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="inimmo.css">
+    <link rel="stylesheet" href="music.css">
     <link rel="shortcut icon" href="imagenes/inimmo2.jpg" type="image/x-icon">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,8 +15,8 @@
 </head>
 <body>
     <div class="botones">
-         <a href=""><img src="imagenes/hogar.png" alt=""></a>   
-         <a href="acount.php"><img src="imagenes/usuario.png" alt=""></a>   
+         <a href="inimmo.php"><img src="imagenes/hogar.png" alt=""></a>   
+         <a href="profile.php"><img src="imagenes/usuario.png" alt=""></a>   
          <a href="OCTOBER.php"><img src="imagenes/comprobacion-de-lista.png" alt=""></a>   
          <a href="music.php"><img src="imagenes\album-de-musica.png" alt="" width="55px" height="55px"></a>   
     </div>
@@ -32,9 +32,16 @@
      </header>
 
         <div class="playlist1">
-              <iframe src="https://co.pinterest.com/pin/1688918603402770/0" frameborder="0"></iframe>
-
+        <iframe src="https://open.spotify.com/embed?uri=spotify:playlist:5wPS697Wus1K3QrDYbllm1" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
         </div>
+        <div class="playlist2">
+        <iframe src="https://open.spotify.com/embed?uri=spotify:playlist:37i9dQZEVXbNG2KDcFcKOF" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+        <div class="playlist3">
+        <iframe src="https://open.spotify.com/embed?uri=spotify:playlist:5NzHPp3paFbMZuKxf1uqkR" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+        
+
    </div>
 </body>
 </html>
